@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JV's Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JV's Guessing Game</h1>
+        </header>
+        <div class="menu">
+            <div class="manual">
+                <p>Try to guess a number between 1 and 100.</p>
+                <p>Easy: 12 guesses. Normal: 8 guesses. Hard: 4 guesses.</p>
+            </div>
+            <div id="easy" class="button">Easy</div>
+            <div id="normal" class="button active">Normal</div>
+            <div id="hard" class="button">Hard</div>
+            <div id="start" class="button">Start</div>
+        </div>
+        <main>
+            <div class="game">
+                <p id="result"></p>
+                <input type="number" id="input" disabled><div id="guess" class="button disabled">Guess</div>
+                <p id="history"></p>
+            </div>
+        </main>
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
